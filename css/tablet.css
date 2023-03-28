@@ -1,0 +1,17 @@
+/* Design for tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  nav span {
+    display: none;
+  }
+
+  /* Them border cho phan Chung chi */
+  .border--1 {
+    border-right: 2px solid #d6c08d;
+    margin-bottom: 20px;
+  }
+  .border--3,
+  .border--4 {
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+}

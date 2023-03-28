@@ -1,0 +1,17 @@
+/* Design for mobile */
+@media (max-width: 767px) {
+  nav span {
+    display: none;
+  }
+  nav .container-fluid {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  /* Them border cho phan Chung chi */
+  .border--1,
+  .border--2 {
+    border-bottom: 2px solid #d6c08d;
+    margin-bottom: 20px;
+  }
+}

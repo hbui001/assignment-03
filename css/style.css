@@ -1,0 +1,68 @@
+body {
+  font-family: "fontello", sans-serif;
+}
+
+/* Thiet ke phan Thong tin nghe nghiep */
+
+#job-info .card-subtitle::before {
+  content: "";
+  position: absolute;
+  display: list-item;
+  list-style-position: outside;
+  color: #0275d8;
+}
+
+#job-info .time,
+#job-info ul {
+  font-size: 1rem;
+  color: #5b5a5a;
+}
+
+#job-info .li {
+  line-height: 18px;
+}
+
+/* Thiet ke icon trong phan So Thich */
+#job-info .hobby {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#job-info .hobby i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin: 30px 15px;
+  scale: calc(1.5);
+  color: #0275d8;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #0275d8;
+}
+
+#job-info .hobby span {
+  color: #5b5a5a;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Thiet ke thanh span trong phan Ngon ngu và Ky nang */
+
+.blue {
+  background: #0275d8;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.gray {
+  background: #5b5a5a;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
